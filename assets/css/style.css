@@ -1,0 +1,103 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    cursor: url("../img/Kawaii Panda.cur"), auto;
+}
+.backimg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url("../img/one.jpg");
+    background-repeat: no-repeat;
+    background-position: 0px -65px;
+    background-size: 100%;
+}
+.navbar {
+    position: fixed;
+    height: 107px;
+    width: 100%;
+    background-color: #009457;
+    text-align: right;
+    z-index: 1;
+}
+.navbar a {
+    color: #fff;
+}
+.navbar a:hover {
+    color: #000;
+}
+.navbar h1 {
+    position: absolute;
+    display: block;
+    font-size: 45px;
+    left: 788px;
+    font-weight: 700;
+    bottom: 13px;
+    cursor: url("../img/cursor.cur"), auto;
+}
+.navbar h2 {
+    position: absolute;
+    display: block;
+    font-size: 20px;
+    left: 971px;
+    font-weight: 600;
+    top: 55px;
+    letter-spacing: 0.05px;
+}
+.box1 {
+    position: absolute;
+    background-color: #444546;
+    height: 635px;
+    width: 100%;
+    top: 637px;
+}
+.box1inside {
+    position: relative;
+    height: 387px;
+    width: 550px;
+    background-color: #009457;
+    top: 120px;
+    left: 365px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.box1inside p {
+    position: absolute;
+    top: 60px;
+    padding: 11px;
+}
+.box1inside h3 {
+    position: absolute;
+    top: 15px;
+    left: 190px;
+    font-size: 25px;
+    font-weight: 800;
+}
+.box2 {
+    position: absolute;
+    height: 670px;
+    width: 100%;
+    top: 1272px;
+    background-image: url("../img/two.jpg");
+    background-repeat: no-repeat;
+    background-position: 0px -90px;
+    background-size: 100%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+footer {
+    display: flex;
+    position: absolute;
+    top: 1942px;
+    height: 30px;
+    width: 100%;
+    background-color: #009457;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
